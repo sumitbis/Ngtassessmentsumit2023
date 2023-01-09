@@ -1,20 +1,30 @@
 package com.app.pages;
 
+import java.io.IOException;
 import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
+import properties.propertiesfil;
+
 public class Scenario4Page {
 
+	public static String urlsc4;
 	WebDriver driver;
 	public Scenario4Page(WebDriver driver) {
 		this.driver = driver;
 		
 	}
 	public void add_to_bag() throws InterruptedException {
-		driver.get("https://www.myntra.com/");
+		try {
+			propertiesfil.getpropertyfile();
+		} catch (IOException e) {
+			
+			e.printStackTrace();
+		}
+		driver.get(urlsc4);
 		//driver.findElement(By.id("mobileNumberPass")).sendKeys("8383863576");
 		//driver.findElement(By.xpath("//input[@class='form-control has-feedback']")).sendKeys("@Inazuma03");
 		//driver.findElement(By.xpath("//button[@class='btn primary  lg block submitButton']")).click();

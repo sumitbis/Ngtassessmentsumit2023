@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-09T12:05:18Z" name="Default suite" finished-at="2023-01-09T12:06:18Z" duration-ms="60456">
+  <suite started-at="2023-01-09T13:58:16Z" name="Default suite" finished-at="2023-01-09T13:59:26Z" duration-ms="70159">
     <groups>
     </groups>
-    <test started-at="2023-01-09T12:05:18Z" name="Default test" finished-at="2023-01-09T12:06:18Z" duration-ms="60456">
+    <test started-at="2023-01-09T13:58:16Z" name="Default test" finished-at="2023-01-09T13:59:26Z" duration-ms="70159">
       <class name="com.app.tests.Apptest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.app.tests.Apptest@26ceffa8]" started-at="2023-01-09T17:35:18Z" name="setup" finished-at="2023-01-09T17:35:20Z" duration-ms="1806" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.app.tests.Apptest@26ceffa8]" started-at="2023-01-09T19:28:16Z" name="setup" finished-at="2023-01-09T19:28:19Z" duration-ms="2769" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyscenario4()[pri:0, instance:com.app.tests.Apptest@26ceffa8]" started-at="2023-01-09T17:35:20Z" name="verifyscenario4" finished-at="2023-01-09T17:35:36Z" duration-ms="15931" status="PASS">
+        <test-method signature="verifyscenario4()[pri:0, instance:com.app.tests.Apptest@26ceffa8]" started-at="2023-01-09T19:28:19Z" name="verifyscenario4" finished-at="2023-01-09T19:28:39Z" duration-ms="20023" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyscenario4 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.app.tests.Apptest@26ceffa8]" started-at="2023-01-09T17:35:36Z" name="tearDown" finished-at="2023-01-09T17:35:36Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.app.tests.Apptest@26ceffa8]" started-at="2023-01-09T19:28:39Z" name="tearDown" finished-at="2023-01-09T19:28:39Z" duration-ms="377" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.app.tests.Apptest@26ceffa8]" started-at="2023-01-09T17:35:36Z" name="setup" finished-at="2023-01-09T17:35:37Z" duration-ms="1024" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.app.tests.Apptest@26ceffa8]" started-at="2023-01-09T19:28:39Z" name="setup" finished-at="2023-01-09T19:28:41Z" duration-ms="1627" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyscenario5()[pri:0, instance:com.app.tests.Apptest@26ceffa8]" started-at="2023-01-09T17:35:37Z" name="verifyscenario5" finished-at="2023-01-09T17:36:18Z" duration-ms="41682" status="PASS">
+        <test-method signature="verifyscenario5()[pri:0, instance:com.app.tests.Apptest@26ceffa8]" started-at="2023-01-09T19:28:41Z" name="verifyscenario5" finished-at="2023-01-09T19:29:26Z" duration-ms="45043" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyscenario5 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.app.tests.Apptest@26ceffa8]" started-at="2023-01-09T17:36:18Z" name="tearDown" finished-at="2023-01-09T17:36:18Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.app.tests.Apptest@26ceffa8]" started-at="2023-01-09T19:29:26Z" name="tearDown" finished-at="2023-01-09T19:29:26Z" duration-ms="295" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

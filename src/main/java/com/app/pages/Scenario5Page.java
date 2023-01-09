@@ -9,10 +9,15 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
+import properties.propertiesfil;
+
 
 public class Scenario5Page {
 
 	
+	public static String loginnumb;
+	public static String password;
+	public static String urlsc5;
 	WebDriver driver;
 	public Scenario5Page(WebDriver driver) {
 		this.driver = driver;
@@ -20,10 +25,15 @@ public class Scenario5Page {
 	public void verify_login() throws InterruptedException {
 		//driver.get("https://www.myntra.com/login/password");
 		
-		
-		driver.get("https://www.myntra.com/login/password");
-		driver.findElement(By.id("mobileNumberPass")).sendKeys("8383863576");
-		driver.findElement(By.xpath("//input[@class='form-control has-feedback']")).sendKeys("@Inazuma03");
+		try {
+			propertiesfil.getpropertyfile();
+		} catch (IOException e) {
+			
+			e.printStackTrace();
+		}
+		driver.get(urlsc5);
+		driver.findElement(By.id("mobileNumberPass")).sendKeys(loginnumb);
+		driver.findElement(By.xpath("//input[@class='form-control has-feedback']")).sendKeys(password);
 		driver.findElement(By.xpath("//button[@class='btn primary  lg block submitButton']")).click();
 		Thread.sleep(35000);
 		driver.findElement(By.xpath("//button[@class='btn primary  lg block submitButton']")).click();
